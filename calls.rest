@@ -3,7 +3,7 @@ GET http://localhost:3000/userslogin
 
 
 ### POST (Create Account)
-POST http://localhost:3000/api/create/
+POST http://localhost:3000/create/
 Content-Type: application/json; charset=utf-8
 
 {
