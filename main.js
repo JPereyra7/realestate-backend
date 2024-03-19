@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
     cors({
-      origin: "http://localhost:5500",
+      origin: "https://lillard-realestate.netlify.app",
       credentials: true,
     })
   );
