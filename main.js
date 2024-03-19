@@ -5,10 +5,7 @@ const { MongoClient } = require("mongodb");
 const cors = require("cors");
 // const { createAccount } = require("./Controllers/userController");
 const app = express();
-const port = process.env.PORT || 3000; // Use dynamic port provided by Heroku or default to 3000
-app.listen(port, () => {
-  console.log(`MongoDB listening on port ${port}`);
-});
+const port = process.env.PORT || 3000;
 
 //MongoDb URI
 const uri = process.env.MONGODB_URI;
